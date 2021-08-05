@@ -1,7 +1,7 @@
 pipeline {
     agent any
 	environment {
-		registry = 'cloudtechmasters/springboot-k8s:latest'
+		registry = 'rsekhar82/springboot-k8s:latest'
 		registryCredentials = 'docker-credentials'
 		dockerImage = ''
 	}
